@@ -116,8 +116,50 @@ span{
     color: darkorange;
 
 }
+ .sponspors .spons-desc{
+    margin-top: 100px;
+    margin-bottom: 40px;
+ }
+footer{
+    max-width:90% ;
+    background-color:antiquewhite ;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
 
+}
+.spons-desc{
+    max-width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.spons-logo, .fact-div{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.spons-logo img{
+max-width: 13%;
 
+}
+
+.fact-card{
+    max-width: 30%;
+    text-align: center;
+
+}
+
+.fact-desc{
+    max-width: 40%;
+    margin:50px ;
+   
+}
+
+.fact-desc h1{
+    margin-left:20px;
+}
 
 @media screen and (max-width:576px){
 
@@ -130,11 +172,60 @@ span{
        
 
     }
+
+    .fact-desc{
+        margin: 0 auto;
+        max-width: 60%;
+        margin-top: 30px;
+    }
+     .fact-card{
+        
+        margin: 0 auto;
+        width: 80%;
+      
+      
+      
+    }
+   .fact-div{
+    display: flex;
+    flex-direction: column;
+   }
+    .section-1{
+        margin: 10px;
+        padding-top:20%;
+    }
     .section1-pic{
         grid-template-columns: 1fr;
         
     }
-   
+   .spons-logo{
+margin-left: 40%;
+
+    flex-direction: column;
+   }
+    .spons-logo img{
+    max-width: 30%;
+    gap: 230px;
+    margin-bottom:8%;
+    
+        
+    }
+    .sponspors .spons-desc{
+        max-width:70%;  
+    }
+    .sponspors{
+       
+    }
+    .section-1 .section1-desc{
+        margin-left:11% ;
+
+    }
+
+    .fact-desc{
+      margin-left:21% ;
+      text-align: center;
+    }
+
 
 }
 
