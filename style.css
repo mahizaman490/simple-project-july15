@@ -160,6 +160,58 @@ max-width: 13%;
 .fact-desc h1{
     margin-left:20px;
 }
+.Features{
+    display: flex;
+   
+ justify-content: center;
+   gap: 50px;
+
+}
+
+.features-contents{
+
+
+    max-width:40%;
+}
+
+.feature-img{
+   max-width:40%;
+
+   
+}
+
+.feature-img img{
+    max-width:100%;
+    position: relative;
+ }
+ 
+ 
+ .card{
+background-color: rgb(253, 242, 229);
+margin-bottom:20px ;
+padding: 10px;
+border-radius: 8px;
+box-shadow: 3px 3px 5px  rgb(226, 227, 228);
+
+}
+
+.year{
+    color: white;
+    font-weight: bold;
+    background-color: orangered;
+    width: 200px;
+    display: inline;
+    padding: 20px;
+    border-radius: 10px;
+   position:absolute ;
+   top:2510px;
+   margin-left:230px ;
+   text-align: center;
+}
+ .year .paraa{
+    color: white;
+    font-weight: bolder;
+}
 
 @media screen and (max-width:576px){
 
@@ -186,6 +238,7 @@ max-width: 13%;
       
       
     }
+    
    .fact-div{
     display: flex;
     flex-direction: column;
@@ -225,8 +278,29 @@ margin-left: 40%;
       margin-left:21% ;
       text-align: center;
     }
+    .Features{
+       flex-direction: column;
+    align-items: center;
+     max-width:90%;
 
+     
+    
+    }
 
+    .features-contents{
+        max-width: 100%;
+        text-align: center;
+        padding: 10%;
+        margin-left: 20%;
+        
+    }
+    .feature-img {
+    margin-left: 11%;
+        max-width: 100%;
+    }
+    .year{
+    visibility: hidden;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:960px){
@@ -238,10 +312,22 @@ margin-left: 40%;
             max-width: auto;
         
     }
+    nav{
+     padding: 40px;
+    }
 
     .section-1 .section1-desc{
         padding: 20px;
         
+    }
+
+    .feature-img {
+        margin-top: 50%;
+        max-width: 70%;
+    }
+    .year{
+        margin-left:230px ;
+        top:2800px;
     }
 }
 
